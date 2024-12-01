@@ -33,7 +33,9 @@ services:
             VIEW_DISTANCE: 16
             SIMULATION_DISTANCE: 8
 
-            SEED: 694269427060245297
+            SEED: "694269427060245297"
+            DATAPACKS: https://github.com/jadc/raid-server/releases/latest/download/datapack.zip
+            RESOURCE_PACK: https://github.com/jadc/raid-server/releases/latest/download/resourcepack.zip
             RESOURCE_PACK_ENFORCE: true
             MAX_WORLD_SIZE: 10000
             ENABLE_COMMAND_BLOCK: true
@@ -49,7 +51,7 @@ services:
             # Addons
             MODRINTH_PROJECTS: |
                 chunky
+                freedomchat
                 viaversion
             PLUGINS: |
-                https://github.com/KaspianDev/AntiPopup/releases/download/499358a/AntiPopup-10.jar
                 https://github.com/jadc/ElytraFlight/releases/latest/download/elytraflight.jar

@@ -58,13 +58,6 @@
         },
         {
             "$set": {
-                "path": "$.environment.treasure-maps.enabled",
-                "value-type": "bool",
-                "value": false
-            }
-        },
-        {
-            "$set": {
                 "path": "$.tick-rates.grass-spread",
                 "value-type": "int",
                 "value": 4
