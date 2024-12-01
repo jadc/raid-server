@@ -31,20 +31,6 @@
         },
         {
             "$set": {
-                "path": "$.entities.armor-stands.tick",
-                "value-type": "bool",
-                "value": false
-            }
-        },
-        {
-            "$set": {
-                "path": "$.entities.armor-stands.do-collision-entity-lookups",
-                "value-type": "bool",
-                "value": false
-            }
-        },
-        {
-            "$set": {
                 "path": "$.misc.redstone-implementation",
                 "value": "ALTERNATE_CURRENT"
             }
