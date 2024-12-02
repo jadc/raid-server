@@ -48,6 +48,10 @@ services:
             MAX_CHAINED_NEIGHBOR_UPDATES: 10000
             PATCH_DEFINITIONS: /patches
 
+            OPS: |
+                6459bbdf-da1f-441a-92cf-6f1b2fec2e61
+                7ce5f13f-faf3-48f9-bba6-669f92598d43
+
             # Addons
             MODRINTH_PROJECTS: |
                 chunky
