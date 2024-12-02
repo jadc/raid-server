@@ -33,11 +33,13 @@ services:
             VIEW_DISTANCE: 16
             SIMULATION_DISTANCE: 8
 
-            SEED: "694269427060245297"
             DATAPACKS: https://github.com/jadc/raid-server/releases/latest/download/datapack.zip
-            RESOURCE_PACK: https://github.com/jadc/raid-server/releases/latest/download/resourcepack.zip
+            REMOVE_OLD_DATAPACKS: true
+            RESOURCE_PACK: https://github.com/jadc/raid-server/releases/latest/download/20241201.zip
             RESOURCE_PACK_ENFORCE: true
-            MAX_WORLD_SIZE: 10000
+            VANILLATWEAKS_SHARECODE: QHb4Am
+
+            SEED: "694269427060245297"
             ENABLE_COMMAND_BLOCK: true
             SNOOPER_ENABLED: false
             SPAWN_PROTECTION: 0
