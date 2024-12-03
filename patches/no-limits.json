@@ -1,0 +1,26 @@
+{
+    "file": "/data/config/paper-global.yml",
+    "ops": [
+        {
+            "$set": {
+                "path": "$.packet-limiter.all-packets.max-packet-rate",
+                "value-type": "int",
+                "value": 2147483647
+            }
+        },
+        {
+            "$set": {
+                "path": "$.packet-limiter.all-packets.interval",
+                "value-type": "int",
+                "value": 1
+            }
+        },
+        {
+            "$set": {
+                "path": "$.spam-limiter.incoming-packet-threshold",
+                "value-type": "int",
+                "value": 2147483647
+            }
+        }
+    ]
+}

@@ -48,13 +48,6 @@
                 "value-type": "int",
                 "value": 4
             }
-        },
-        {
-            "$set": {
-                "path": "$.entities.spawning.non-player-arrow-despawn-rate",
-                "value-type": "int",
-                "value": 20
-            }
         }
     ]
 }
