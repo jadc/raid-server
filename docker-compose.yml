@@ -37,7 +37,7 @@ services:
             REMOVE_OLD_DATAPACKS: true
             RESOURCE_PACK: https://github.com/jadc/raid-server/releases/latest/download/20241201.zip
             RESOURCE_PACK_ENFORCE: true
-            VANILLATWEAKS_SHARECODE: QHb4Am
+            VANILLATWEAKS_SHARECODE: WmlsaK
 
             SEED: "694269427060245297"
             ENABLE_COMMAND_BLOCK: true
