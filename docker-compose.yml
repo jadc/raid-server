@@ -56,7 +56,6 @@ services:
 
             # Addons
             MODRINTH_PROJECTS: |
-                coreprotect
                 chunky
                 freedomchat
                 viaversion
