@@ -54,7 +54,7 @@
             "$set": {
                 "path": "$.world-settings.default.entity-tracking-range.players",
                 "value-type": "int",
-                "value": 1024
+                "value": 512
             }
         }
     ]
