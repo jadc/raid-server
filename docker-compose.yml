@@ -60,3 +60,18 @@ services:
                 viaversion
             PLUGINS: |
                 https://github.com/jadc/ElytraFlight/releases/latest/download/elytraflight.jar
+    mc-backup:
+        image: itzg/mc-backup
+        user: "1000"
+        depends_on:
+            mc:
+                condition: service_healthy
+        environment:
+            INCLUDES: world
+            BACKUP_INTERVAL: "12h"
+            INITIAL_DELAY: 0
+            RCON_HOST: mc
+            PAUSE_IF_NO_PLAYERS: true
+        volumes:
+            - ./data:/data:ro
+            - ./backups:/backups
