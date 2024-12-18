@@ -20,7 +20,7 @@ services:
             # Server Settings
             TYPE: FOLIA
             FOLIA_DOWNLOAD_URL: https://github.com/jadc/raid-server/releases/latest/download/server.jar
-            VERSION: 1.21.4
+            VERSION: 1.21.3
             EULA: true
             MOTD: "§5chems event"
             ICON: "https://cdn.discordapp.com/icons/1115150825157824523/a_848a00bf7b93e2e29dda9111687cd9da.webp?size=64"
@@ -58,7 +58,6 @@ services:
                 chunky
                 freedomchat
                 viaversion
-                viabackwards
             PLUGINS: |
                 https://github.com/jadc/ElytraFlight/releases/latest/download/elytraflight.jar
     mc-backup:
