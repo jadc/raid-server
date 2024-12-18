@@ -3,6 +3,13 @@
     "ops": [
         {
             "$set": {
+                "path": "$.settings.anvil.cumulative-cost",
+                "value-type": "bool",
+                "value": false
+            }
+        },
+        {
+            "$set": {
                 "path": "$.settings.enchantment.allow-unsafe-enchant-command",
                 "value-type": "bool",
                 "value": true
