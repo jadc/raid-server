@@ -3,7 +3,7 @@
     "ops": [
         {
             "$set": {
-                "path": "$.settings.anvil.cumulative-cost",
+                "path": "$.settings.blocks.anvil.cumulative-cost",
                 "value-type": "bool",
                 "value": false
             }
