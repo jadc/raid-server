@@ -41,7 +41,7 @@ services:
             ENABLE_COMMAND_BLOCK: true
             SNOOPER_ENABLED: false
             SPAWN_PROTECTION: 0
-            PLAYER_IDLE_TIMEOUT: 15
+            PLAYER_IDLE_TIMEOUT: 0
             MAX_TICK_TIME: -1
             ENFORCE_SECURE_PROFILE: false
             SYNC_CHUNK_WRITES: false

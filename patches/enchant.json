@@ -1,0 +1,26 @@
+{
+    "file": "/data/purpur.yml",
+    "ops": [
+        {
+            "$set": {
+                "path": "$.settings.enchantment.allow-unsafe-enchant-command",
+                "value-type": "bool",
+                "value": true
+            }
+        },
+        {
+            "$set": {
+                "path": "$.settings.enchantment.anvil.replace-incompatible-enchants",
+                "value-type": "bool",
+                "value": true
+            }
+        },
+        {
+            "$set": {
+                "path": "$.settings.enchantment.anvil.allow-higher-enchants-levels",
+                "value-type": "bool",
+                "value": true
+            }
+        }
+    ]
+}
