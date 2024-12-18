@@ -18,8 +18,8 @@ services:
             JVM_XX_OPTS: "-XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions -XX:+UseCriticalJavaThreadPriority -XX:+UseFastUnorderedTimeStamps -XX:+UseNUMA -XX:+UseVectorCmov -XX:+UseZGC -XX:+ZGenerational -XX:-DontCompileHugeMethods -XX:-ZProactive -XX:AllocatePrefetchStyle=1 -XX:MaxNodeLimit=240000 -XX:NmethodSweepActivity=1 -XX:NodeLimitFudgeFactor=8000 -XX:NonNMethodCodeHeapSize=12M -XX:NonProfiledCodeHeapSize=194M -XX:ProfiledCodeHeapSize=194M -XX:ReservedCodeCacheSize=400M -XX:ThreadPriorityPolicy=1"
 
             # Server Settings
-            TYPE: CUSTOM
-            CUSTOM_SERVER: "folia.jar"
+            TYPE: FOLIA
+            FOLIA_DOWNLOAD_URL: https://github.com/jadc/raid-server/releases/latest/download/server.jar
             VERSION: 1.21.4
             EULA: true
             MOTD: "§5chems event"
