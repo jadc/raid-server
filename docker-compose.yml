@@ -19,7 +19,7 @@ services:
 
             # Server Settings
             TYPE: FOLIA
-            FOLIA_DOWNLOAD_URL: https://github.com/jadc/raid-server/releases/latest/download/server.jar
+            FOLIA_DOWNLOAD_URL: https://github.com/jadc/raid-server/releases/download/20241217/server.jar
             VERSION: 1.21.3
             EULA: true
             MOTD: "§5chems event"
