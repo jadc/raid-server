@@ -48,6 +48,13 @@
                 "value-type": "int",
                 "value": 4
             }
+        },
+        {
+            "$set": {
+                "path": "$.entities.behavior.zombie-villager-infection-chance",
+                "value-type": "float",
+                "value": 100.0
+            }
         }
     ]
 }

@@ -56,6 +56,20 @@
                 "value-type": "int",
                 "value": 512
             }
+        },
+        {
+            "$set": {
+                "path": "$.world-settings.default.merge-radius.exp",
+                "value-type": "float",
+                "value": 6.0
+            }
+        },
+        {
+            "$set": {
+                "path": "$.world-settings.default.merge-radius.item",
+                "value-type": "float",
+                "value": 4.0
+            }
         }
     ]
 }
